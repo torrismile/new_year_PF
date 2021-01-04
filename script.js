@@ -12,7 +12,7 @@ const xmasTripTime = new Date(`January 01 ${currentYear + 1}  00:00:00`);
 
 //Set background year
 
-year.innerHTML = currentYear;
+year.innerHTML = 'PF' + currentYear;
 
 //Update countdown time
 function updateCountdown() {
