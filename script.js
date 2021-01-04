@@ -17,7 +17,7 @@ year.innerHTML = currentYear;
 //Update countdown time
 function updateCountdown() {
     const currentTime = new Date();
-    const diff  = xmasTripTime - currentTime;
+    const diff = xmasTripTime - currentTime;
 
     const d = Math.floor(diff / 1000 / 60 / 60 / 24);
     const h = Math.floor(diff / 1000 / 60 / 60) % 24;
@@ -27,9 +27,9 @@ function updateCountdown() {
 
     //Add values to DOM
     days.innerHTML = d;
-    hours.innerHTML = h < 10 ? '0' + h : h ;
-    minutes.innerHTML = m < 10 ? '0' + m : m ;
-    seconds.innerHTML = s < 10 ? '0' + s : s ;
+    hours.innerHTML = h < 10 ? '0' + h : h;
+    minutes.innerHTML = m < 10 ? '0' + m : m;
+    seconds.innerHTML = s < 10 ? '0' + s : s;
 
 }
 
